@@ -34,7 +34,7 @@ Results:
 
 | Model                                  | Run 1         | Run 2         | Run 3         | Run 4         | Run 5         | Avg.
 | -------------------------------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| `dbmdz/bert-base-italian-cased`        | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
+| `dbmdz/bert-base-italian-cased`        | (98.58) 98.63 | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
 | `dbmdz/bert-base-italian-uncased`      | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
 | `dbmdz/bert-base-italian-xxl-cased`    | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
 | `dbmdz/bert-base-italian-xxl-uncased`  | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
