@@ -40,3 +40,24 @@ Results:
 | `dbmdz/bert-base-italian-xxl-uncased`  | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
 | `dbmdz/electra-base-italian-cased`     | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
 | `dbmdz/electra-base-italian-xxl-cased` | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
+
+Command:
+
+Training can be started with:
+
+```bash
+python3 flair-pos-trainer.py --data_folder ./data/UD_Italian-ISDT --case cased\
+  --model_name dbmdz/bert-base-italian-cased --run_id 1
+```
+
+And evaluation (development and test set) with:
+
+```bash
+python3 flair-pos-predictor.py --data_folder ./data/UD_Italian-ISDT --case cased\
+  --model_name resources/taggers/pos-UD_Italian-ISDT-dbmdz/bert-base-italian-cased-1/best-model.pt\
+  --dataset dev
+
+python3 flair-pos-predictor.py --data_folder ./data/UD_Italian-ISDT --case cased\
+  --model_name resources/taggers/pos-UD_Italian-ISDT-dbmdz/bert-base-italian-cased-1/best-model.pt\
+  --dataset test
+```
