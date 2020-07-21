@@ -34,9 +34,9 @@ Results:
 
 | Model                                  | Run 1         | Run 2         | Run 3         | Run 4         | Run 5         | Avg.
 | -------------------------------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| `dbmdz/bert-base-italian-cased`        | (98.58) 98.63 | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
-| `dbmdz/bert-base-italian-uncased`      | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
-| `dbmdz/bert-base-italian-xxl-cased`    | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
+| `dbmdz/bert-base-italian-cased`        | (98.58) 98.63 | (98.57) 98.63 | (98.58) 98.60 | (98.62) 98.57 | (98.64) 98.50 | (98.60) 98.59 |
+| `dbmdz/bert-base-italian-uncased`      | (98.30) 98.33 | (98.19) 98.29 | (98.24) 98.21 | (98.24) 98.22 | (98.19) 98.13 | (98.23) 98.23 |
+| `dbmdz/bert-base-italian-xxl-cased`    | (98.69) 98.60 | (98.70) 98.56 | (98.72) 98.60 | (98.68) 98.65 | (98.66) 98.50 | (98.69) 98.58 |
 | `dbmdz/bert-base-italian-xxl-uncased`  | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
 | `dbmdz/electra-base-italian-cased`     | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
 | `dbmdz/electra-base-italian-xxl-cased` | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx | (xx.xx) xx.xx |
