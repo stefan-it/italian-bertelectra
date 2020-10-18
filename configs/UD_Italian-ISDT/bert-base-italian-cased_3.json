@@ -1,0 +1,17 @@
+{
+    "data_dir": "../../data/UD_Italian-ISDT/dbmdz/bert-base-italian-cased-data/",
+    "labels": "../../data/UD_Italian-ISDT/labels.txt",
+    "model_name_or_path": "dbmdz/bert-base-italian-cased",
+    "output_dir": "bert-base-italian-cased-model-3",
+    "max_seq_length": 128,
+    "num_train_epochs": 10,
+    "per_device_train_batch_size": 16,
+    "save_steps": 821,
+    "seed": 3,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true,
+    "load_best_model_at_end": true,
+    "fp16": true,
+    "overwrite_output_dir": true
+}
