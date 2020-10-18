@@ -1,6 +1,6 @@
 # 🇮🇹 Italian BERTELECTRA models
 
-In this repository we monitor all experiments with our trained [DBMDZ models](https://github.com/dbmdz/berts)
+In this repository we monitor all experiments for our trained [DBMDZ models](https://github.com/dbmdz/berts)
 for Italian. It includes both BERT and ELECTRA models and we use 🤗 Transformers library to fine-tune models.
 
 Made with 🤗 and ❤️ from Munich.
