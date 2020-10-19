@@ -37,6 +37,7 @@ Results (Development set)
 | `bert-base-multilingual-cased`                | 98.50 | 98.54 | 98.49 | 98.54 | 98.43 | 98.50 ± 0.04
 | `bert-base-multilingual-uncased`              | 98.24 | 98.17 | 98.22 | 98.27 | 98.23 | 98.23 ± 0.03
 | `xlm-roberta-base`                            | 98.63 | 98.61 | 98.66 | 98.60 | 98.62 | 98.62 ± 0.02
+| `electra-base-italial-xxl-cased` (1M)         | 98.72 | 98.75 | 98.78 | 98.68 | 98.76 | 98.74 ± 0.03
 
 Results (Test set)
 
@@ -49,3 +50,4 @@ Results (Test set)
 | `bert-base-multilingual-cased`                | 98.79 | 98.71 | 98.60 | 98.72 | 98.64 | 98.69 ± 0.07
 | `bert-base-multilingual-uncased`              | 98.57 | 98.51 | 98.49 | 98.47 | 98.44 | 98.50 ± 0.04
 | `xlm-roberta-base`                            | 98.86 | 98.79 | 98.78 | 98.77 | 98.76 | 98.79 ± 0.04
+| `electra-base-italial-xxl-cased` (1M)         | 98.84 | 98.93 | 98.82 | 98.88 | 98.92 | 98.88 ± 0.04
