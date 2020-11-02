@@ -33,4 +33,25 @@ cat train.txt.tmp dev.txt.tmp test.txt.tmp | grep -v "^$" | cut -d " " -f 2 | so
 
 cd .. # from UD_Italian-ISDT
 
+# UD_Italian-PoSTWITA
+git clone https://github.com/UniversalDependencies/UD_Italian-PoSTWITA.git
+cd UD_Italian-PoSTWITA
+git checkout 662b23564b7e0d359b3b73889d31b0c1063a2e03
+
+echo "Preprocessing UD_Italian-PoSTWITA (Phase I)"
+cat it_postwita-ud-train.conllu | cut -f 2,4 | grep -v "_" | grep -v "^#" | tr '\t' ' ' > train.txt.tmp
+cat it_postwita-ud-dev.conllu | cut -f 2,4 | grep -v "_" | grep -v "^#" | tr '\t' ' ' > dev.txt.tmp
+cat it_postwita-ud-test.conllu | cut -f 2,4 | grep -v "_" | grep -v "^#" | tr '\t' ' ' > test.txt.tmp
+
+for model in dbmdz/bert-base-italian-cased dbmdz/bert-base-italian-xxl-cased dbmdz/bert-base-italian-uncased dbmdz/bert-base-italian-xxl-uncased bert-base-multilingual-cased bert-base-multilingual-uncased xlm-roberta-base
+do
+    mkdir -p $model-data # append data, because preprocess would look into this folder for tokenizer config!!!!
+
+    echo "Preprocessing UD_Italian-PoSTWITA for $model (Phase II)"
+
+    python3 ../../preprocess.py ./train.txt.tmp $model 128 > $model-data/train.txt
+    python3 ../../preprocess.py ./dev.txt.tmp $model 128 > $model-data/dev.txt
+    python3 ../../preprocess.py ./test.txt.tmp $model 128 > $model-data/test.txt
+done
+
 cd .. # from data
