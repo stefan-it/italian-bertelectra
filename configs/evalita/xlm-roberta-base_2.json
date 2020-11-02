@@ -1,0 +1,17 @@
+{
+    "data_dir": "../../data/evalita/xlm-roberta-base-data/",
+    "labels": "../../data/evalita/labels.txt",
+    "model_name_or_path": "xlm-roberta-base",
+    "output_dir": "xlm-roberta-base-model-2",
+    "max_seq_length": 128,
+    "num_train_epochs": 10,
+    "per_device_train_batch_size": 16,
+    "save_steps": 703,
+    "seed": 2,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true,
+    "load_best_model_at_end": true,
+    "fp16": true,
+    "overwrite_output_dir": true
+}

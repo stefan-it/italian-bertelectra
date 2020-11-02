@@ -1,0 +1,17 @@
+{
+    "data_dir": "../../data/evalita/bert-base-multilingual-uncased-data/",
+    "labels": "../../data/evalita/labels.txt",
+    "model_name_or_path": "bert-base-multilingual-uncased",
+    "output_dir": "bert-base-multilingual-uncased-model-4",
+    "max_seq_length": 128,
+    "num_train_epochs": 10,
+    "per_device_train_batch_size": 16,
+    "save_steps": 703,
+    "seed": 4,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true,
+    "load_best_model_at_end": true,
+    "fp16": true,
+    "overwrite_output_dir": true
+}
