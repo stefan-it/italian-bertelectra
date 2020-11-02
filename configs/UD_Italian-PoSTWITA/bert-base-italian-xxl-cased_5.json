@@ -1,0 +1,17 @@
+{
+    "data_dir": "../../data/UD_Italian-PoSTWITA/dbmdz/bert-base-italian-xxl-cased-data/",
+    "labels": "../../data/UD_Italian-PoSTWITA/labels.txt",
+    "model_name_or_path": "dbmdz/bert-base-italian-xxl-cased",
+    "output_dir": "bert-base-italian-xxl-cased-model-5",
+    "max_seq_length": 128,
+    "num_train_epochs": 10,
+    "per_device_train_batch_size": 16,
+    "save_steps": 336,
+    "seed": 5,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true,
+    "load_best_model_at_end": true,
+    "fp16": true,
+    "overwrite_output_dir": true
+}
