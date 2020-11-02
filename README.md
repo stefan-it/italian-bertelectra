@@ -24,7 +24,7 @@ it with data from the Italian part of the [OSCAR corpus](https://traces1.inria.f
 Thus, the final training corpus has a size of 81GB and 13,138,379,147 tokens.
 
 Note: Unfortunately, a wrong vocab size was used when training the XXL models.
-This explains the mismatch of the "real" vocab size of 31102, compared to the
+This explains the mismatch of the "real" vocab size of 31,102, compared to the
 vocab size specified in `config.json`. However, the model is working and all
 evaluations were done under those circumstances.
 See [this issue](https://github.com/dbmdz/berts/issues/7) for more information.
@@ -41,7 +41,8 @@ We use the awesome 🤗 Transformers library for all fine-tuning experiments.
 
 Please star and watch [Transformers](https://github.com/huggingface/transformers) on GitHub!
 
-All JSON-based configuration files for our experiments can be found in the `./configs` folder
+All JSON-based configuration files for our experiments can be found in the
+[configuration](https://github.com/stefan-it/italian-bertelectra/tree/main/configs) folder
 in this repository. To replicate the results, just clone the latest version of Transforms, `cd`
 into the `examples/token-classification` folder and run `python3 run_ner.py <configuration.json>`.
 
