@@ -169,17 +169,25 @@ using their model name. The following models are available:
 Example usage with 🤗/Transformers:
 
 ```python
-tokenizer = AutoTokenizer.from_pretrained("dbmdz/bert-base-italian-xxl-cased")
+from transformers import AutoModel, AutoTokenizer
 
-model = AutoModel.from_pretrained("dbmdz/bert-base-italian-xxl-cased")
+model_name = "dbmdz/bert-base-italian-xxl-cased"
+
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+model = AutoModel.from_pretrained(model_name)
 ```
 
 This loads the Italian XXL BERT cased model. The recently introduced ELEC**TR**A base model can be loaded with:
 
 ```python
-tokenizer = AutoTokenizer.from_pretrained("dbmdz/electra-base-italian-xxl-cased-discriminator")
+from transformers import AutoModel, AutoTokenizer
 
-model = AutoModelWithLMHead.from_pretrained("dbmdz/electra-base-italian-xxl-cased-discriminator")
+model_name = "dbmdz/electra-base-italian-xxl-cased-discriminator"
+
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+model = AutoModelWithLMHead.from_pretrained(model_name)
 ```
 
 # License
