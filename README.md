@@ -87,6 +87,12 @@ Results (Test set)
 | `xlm-roberta-base`                            | 98.86 | 98.79 | 98.78 | 98.77 | 98.76 | 98.79 ± 0.04
 | `electra-base-italian-xxl-cased` (1M)         | 98.84 | 98.93 | 98.82 | 98.88 | 98.92 | 98.88 ± 0.04
 
+Plots for results on both development and test set:
+
+![UD Italian-ISDT (Development)](figures/plot_Italian-ISDT_dev.png)
+
+![UD Italian-ISDT (Test)](figures/plot_Italian-ISDT_test.png)
+
 ### Italian-PoSTWITA
 
 Description:
