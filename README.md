@@ -135,6 +135,12 @@ Results (Test set)
 | `xlm-roberta-base`                            | 96.94 | 96.82 | 97.05 | 97.06 | 96.99 | 96.97 ± 0.09
 | `electra-base-italian-xxl-cased` (1M)         | 97.27 | 97.39 | 97.23 | 97.22 | 97.23 | **97.27** ± 0.06
 
+Plots for results on both development and test set:
+
+![UD Italian-PoSTWITA (Development)](figures/plot_Italian-PoSTWITA_dev.png)
+
+![UD Italian-PoSTWITA (Test)](figures/plot_Italian-PoSTWITA_test.png)
+
 ## NER
 
 ### EVALITA 2009
