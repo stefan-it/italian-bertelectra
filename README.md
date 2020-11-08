@@ -9,6 +9,7 @@ Made with 🤗 and ❤️ from Munich.
 
 # Changelog
 
+* 08.11.2020: Add DOI/Zenodo information, including citation section.
 * 02.11.2020: Initial version and public release of Italian XXL ELECTRA model.
 
 # Training
