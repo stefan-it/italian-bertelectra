@@ -169,6 +169,10 @@ Results (Test set)
 | `xlm-roberta-base`                            | 84.23 | 84.83 | 84.41 | 84.51 | 83.81 | 84.36 ± 0.34
 | `electra-base-italian-xxl-cased` (1M)         | 87.50 | 88.10 | 88.56 | 88.22 | 88.31 | **88.14** ± 0.35
 
+Plots for results on test set:
+
+![UD Italian-EVALITA (Test)](figures/plot_Italian-EVALITA_test.png)
+
 # Model usage
 
 All trained models can be used from the [DBMDZ](https://github.com/dbmdz) Hugging Face [model hub page](https://huggingface.co/dbmdz)
