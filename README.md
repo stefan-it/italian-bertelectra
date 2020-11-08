@@ -1,6 +1,6 @@
 # 🇮🇹 Italian BERTELECTRA models
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4263103.svg)](https://doi.org/10.5281/zenodo.4263103)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4263142.svg)](https://doi.org/10.5281/zenodo.4263142)
 
 In this repository we monitor all experiments for our trained [DBMDZ models](https://github.com/dbmdz/berts)
 for Italian. It includes both BERT and ELECTRA models and we use 🤗 Transformers library to fine-tune models.
@@ -224,15 +224,15 @@ For questions about our BERT models just open an issue
 You can use the following BibTeX entry for citation:
 
 ```bibtex
-@software{stefan_schweter_2020_4263103,
+@software{stefan_schweter_2020_4263142,
   author       = {Stefan Schweter},
   title        = {Italian BERT and ELECTRA models},
   month        = nov,
   year         = 2020,
   publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {10.5281/zenodo.4263103},
-  url          = {https://doi.org/10.5281/zenodo.4263103}
+  version      = {1.0.1},
+  doi          = {10.5281/zenodo.4263142},
+  url          = {https://doi.org/10.5281/zenodo.4263142}
 }
 ```
 
