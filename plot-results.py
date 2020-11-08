@@ -24,7 +24,7 @@ def plot_results(results, split, metric, title, output_filename):
         for line in f_p:
             line = line.rstrip()
 
-            model_name, run, current_split, result = line.split(";")
+            model_name, current_split, run, result = line.split(";")
             
             if current_split != split:
                 continue
@@ -53,8 +53,14 @@ def plot_results(results, split, metric, title, output_filename):
 
     data = pd.DataFrame(values, runs, columns=columns)
 
-    fig = sns.lineplot(data=data, palette="tab10",linewidth=2.5)
-    fig.set(xlabel="run", ylabel=metric)
+    fig = sns.lineplot(data=data, palette="tab10",linewidth=2.5, dashes=False, legend="brief")
+    box = fig.get_position()
+    fig.set_position([box.x0, box.y0, box.width * 0.5, box.height]) # resize position
+
+    # Put a legend to the right side
+    fig.legend(loc='center right', bbox_to_anchor=(2.25, 0.5), ncol=1)
+
+    fig.set(xlabel="Run", ylabel=metric)
     fig.set(xticks=runs)
     fig.set_title(title)
     fig.figure.savefig(output_filename) # yeah, latest seaborn compatibility ;)
