@@ -1,5 +1,10 @@
 # 🇮🇹 Italian BERTELECTRA models
 
+<p>
+<a href="https://console.tiyaro.ai/explore?q=dbmdz/bert-base-italian-&pub=dbmdz"> <img src="https://tiyaro-public-docs.s3.us-west-2.amazonaws.com/assets/try_on_tiyaro_badge.svg"></a>
+</p>
+
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4263142.svg)](https://doi.org/10.5281/zenodo.4263142)
 
 In this repository we monitor all experiments for our trained [DBMDZ models](https://github.com/dbmdz/berts)
